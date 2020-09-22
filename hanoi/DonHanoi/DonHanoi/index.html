@@ -1,0 +1,25 @@
+<link rel="stylesheet" type="text/css" href="hanoi.css">
+<script language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<!-- <script type="text/javascript" src="hanoi_cal.js"></script> -->
+<script type="text/javascript" src="hanoi_js.js"></script>
+<!-- <script type="text/javascript" src="hanoi.js"></script> -->
+<body onload="myLoad()">
+  <div id="canves">
+  <div class="restart"><i class="fa fa-repeat"></i></div>
+  <div class="curtain"></div>
+    <ul id="score-panel" class="score-panel">
+      <li>
+        <h1> <span id="moves-num" class="moves-num"></span><span>Moves</span></h1>
+      </li>
+    </ul>
+    <ul class="tower" id="tower-1"></ul>
+    <ul class="tower" id="tower-2"></ul>
+    <ul class="tower" id="tower-3"></ul>
+
+    <button class="restart" id="restart" onclick="restart()">restart</button>
+  </div>
+  <p style="display: block; padding-left: 50px;">
+    <!-- <span id="progress"></span> -->
+    <!-- <textarea id="progress" rows="10" cols="50"></textarea> -->
+  </p>
+</body>
